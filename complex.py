@@ -7,11 +7,11 @@ def init(a, b):
     x = a
     y = b
 
-def complex_sum(a, b):
-    return a+b
-def complex_minus(a, b):
-    return a-b
-def complex_division(a, b):
-    return a/b
-def complex_multi(a,b):
-    return a*b
+def complex_sum():
+    return x+y
+def complex_minus():
+    return x-y
+def complex_division():
+    return x/y
+def complex_multi():
+    return x*y
