@@ -1,5 +1,5 @@
-from email.mime import image
-
+import view
 
 def is_complex(value):
-    return (isinstance(value, complex) and (value.imag != 0))
+    value = view.get_value
+    return isinstance(value, complex)

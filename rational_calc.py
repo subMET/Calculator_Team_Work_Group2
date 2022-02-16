@@ -9,14 +9,14 @@ def init(a, b):
 
 from fractions import Fraction
 
-def rational_sum():
-    return x+y
+def rational_sum(a, b):
+    return a+b
     
-def rational_minus():
-    return x-y
+def rational_minus(a, b):
+    return a-b
 
-def rational_division():
-    return x/y
+def rational_division(a, b):
+    return a/b
 
-def rational_multi():
-    return x*y
+def rational_multi(a, b):
+    return a*b
